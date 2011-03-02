@@ -1,0 +1,22 @@
+; $Id: rubik.info,v 1.2.2.2.2.1 2010/09/28 21:04:29 yhahn Exp $
+name = Square
+description = Clean admin theme.
+base theme = rubik
+core = 7.x
+engine = phptemplate
+
+regions[content] = Content
+regions[help] = Help
+regions[page_top] = Page top
+regions[page_bottom] = Page bottom
+regions[footer] = Footer
+
+; scripts[] = js/rubik.js
+; stylesheets[screen][] = core.css
+; stylesheets[screen][] = icons.css
+; stylesheets[screen][] = style.css
+stylesheets[screen][] = main.css
+
+; Support shortcut module links
+settings[shortcut_module_link] = 1
+

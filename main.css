@@ -1,0 +1,40 @@
+/**
+ * Header =========================================================
+ */
+#header {
+  background-color: #dedede;
+  }
+
+#site-name {
+  float: left;
+  font-size:14px;
+  font-weight: bold;
+  margin-left: 30px;
+  padding:15px 0;
+  }
+
+#header .main-menu {
+  font-size:14px;
+  font-weight: bold;
+  border-right: 1px solid #ccc;
+  margin-right: 30px;
+  }
+
+#header .main-menu li {
+  float: right;
+  }
+
+#header .main-menu li a {
+  border-left: 1px solid #ccc;
+  color: #555;
+  padding:15px;
+  }
+
+#header .main-menu li.active {
+  background-color: white;
+  }
+
+#header .main-menu li a.active {
+  color: #5599AA;
+  }
+
